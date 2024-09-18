@@ -37,15 +37,17 @@ By leveraging this project, you'll gain a head start on all the essential infras
 This project aims to include a comprehensive set of tools and configurations to streamline DevOps processes. Here’s what you can expect:
 
 ### ⚙️ Development Environment
-- **Local Development**: Develop locally using **Docker** and **LocalStack** to simulate AWS services.
+- **Tools Bootstrapping**: Bootstrap all the required software to your Laptop with Brewfile.
+- **Local Development**: Develop locally using **Docker** and **[LocalStack](https://www.localstack.cloud/)** to simulate AWS services.
+- **Preview Environments**: On-demand preview environments with the lifespan as long as your PR is open.
 - **Version Control**: Centralized version control using **GitHub**.
 
 ### 🛠️ Infrastructure as Code (IaC)
-- **Terraform**: Manage cloud infrastructure with **Terraform** modules and configurations.
-- **Infrastructure Deployment**: Automate infrastructure deployment via **Atlantis** through pull requests.
+- **Terraform**: Manage cloud infrastructure with **[Terraform](https://www.terraform.io/)** modules and configurations.
+- **Infrastructure Deployment**: Automate infrastructure deployment via **[Atlantis](https://www.runatlantis.io/)** through pull requests.
 
 ### 🧑‍💻 Continuous Integration & Continuous Delivery (CI/CD)
-- **CI with GitHub Actions**: Automate testing, linting, and build pipelines using **GitHub Actions**.
+- **CI with GitHub Actions**: Automate testing, linting, and build pipelines using **[GitHub Actions](https://github.com/features/actions)**.
 - **CD with Argo CD**: Implement **GitOps** for continuous delivery of applications to Kubernetes clusters.
 
 ### 🚀 Application Deployment
@@ -54,7 +56,7 @@ This project aims to include a comprehensive set of tools and configurations to 
 - **Container Management**: Build, tag, and push container images to **ECR** and manage them via **Helm Charts**.
   
 ### 🔐 Security
-- **Security Scans**: Integrate security scanning tools like **Trivy** for vulnerabilities in containers and **Renovate** for dependency management.
+- **Security Scans**: Integrate security scanning tools like **[Trivy](https://github.com/aquasecurity/trivy)** for vulnerabilities in containers and **[Renovate](https://github.com/renovatebot/renovate)** for dependency management.
 
 ### 🔍 Observability & Monitoring
 - **Observability Stack**: Integrated observability using **Prometheus**, **Grafana**, **Loki**, **Tempo**, and **OpenTelemetry** for monitoring, logging, tracing, and metrics.
@@ -65,6 +67,7 @@ This project aims to include a comprehensive set of tools and configurations to 
 - **AutoScaling**: Scale your applications using **Karpenter** and **KEDA**.
 - **Ingress Controllers**: Route traffic using **Ingress-Nginx** controllers.
 - **Load Testing**: Perform load testing to ensure your applications can handle traffic under pressure.
+- **Right-Sizing Pods**: Optimize your Kubernetes pods' resource requests and limits with [Goldilocks](https://github.com/FairwindsOps/goldilocks).
 
 ### 📦 Package & Helm Chart Management
 - **Helm Charts**: Package and deploy applications using **Helm Charts**.
@@ -128,7 +131,7 @@ Make sure your workflows are defined in the `.github/workflows/` directory, and 
 
 ## 📚 Documentation
 
-Comprehensive documentation is available in the `docs/` folder. Check out the [index]() for a full guide on setting up your infrastructure, GitOps processes, and CI/CD pipelines.
+Comprehensive documentation is available in the `docs/` folder. Check out the [docs](https://devops-accelerator-project.netlify.app/) for a full guide on setting up your infrastructure, GitOps processes, and CI/CD pipelines.
 
 ## 🤝 Contributing
 
