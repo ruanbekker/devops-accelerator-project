@@ -32,6 +32,44 @@ The **DevOps Accelerator Project (DOAP)** was born from the need to **simplify a
 
 By leveraging this project, you'll gain a head start on all the essential infrastructure components needed to support modern applications, from deployment pipelines to cloud resources. We believe that automation should free you to innovate, not bog you down with repetitive configuration tasks.
 
+## ✨ Features
+
+This project aims to include a comprehensive set of tools and configurations to streamline DevOps processes. Here’s what you can expect:
+
+### ⚙️ Development Environment
+- **Local Development**: Develop locally using **Docker** and **LocalStack** to simulate AWS services.
+- **Version Control**: Centralized version control using **GitHub**.
+
+### 🛠️ Infrastructure as Code (IaC)
+- **Terraform**: Manage cloud infrastructure with **Terraform** modules and configurations.
+- **Infrastructure Deployment**: Automate infrastructure deployment via **Atlantis** through pull requests.
+
+### 🧑‍💻 Continuous Integration & Continuous Delivery (CI/CD)
+- **CI with GitHub Actions**: Automate testing, linting, and build pipelines using **GitHub Actions**.
+- **CD with Argo CD**: Implement **GitOps** for continuous delivery of applications to Kubernetes clusters.
+
+### 🚀 Application Deployment
+- **Java Spring Boot Applications**: Build **Java Spring Boot** microservices with **Gradle**.
+- **AWS EKS Deployment**: Deploy applications to **AWS EKS** clusters.
+- **Container Management**: Build, tag, and push container images to **ECR** and manage them via **Helm Charts**.
+  
+### 🔐 Security
+- **Security Scans**: Integrate security scanning tools like **Trivy** for vulnerabilities in containers and **Renovate** for dependency management.
+
+### 🔍 Observability & Monitoring
+- **Observability Stack**: Integrated observability using **Prometheus**, **Grafana**, **Loki**, **Tempo**, and **OpenTelemetry** for monitoring, logging, tracing, and metrics.
+- **Alerts**: Configure **Slack** alerts for system notifications and incidents.
+- **Dashboards as Code**: Manage dashboard and alert configurations as code for reproducibility and version control.
+
+### 🧪 Scalability & Performance
+- **AutoScaling**: Scale your applications using **Karpenter** and **KEDA**.
+- **Ingress Controllers**: Route traffic using **Ingress-Nginx** controllers.
+- **Load Testing**: Perform load testing to ensure your applications can handle traffic under pressure.
+
+### 📦 Package & Helm Chart Management
+- **Helm Charts**: Package and deploy applications using **Helm Charts**.
+- **AWS Controllers for Kubernetes (ACK)**: Utilize **ACK Controllers** for managing AWS resources within Kubernetes via Helm charts.
+
 ## 🧱 Repository Structure
 
 Here's a quick breakdown of the repository:
