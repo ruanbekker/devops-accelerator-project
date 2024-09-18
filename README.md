@@ -102,7 +102,7 @@ This project is currently **under development** and is not yet ready for product
 
 Please feel free to explore the repository, but be aware that breaking changes may occur frequently. Contributions and suggestions are welcome as we progress!
 
-📢 Spread the Word
+## 📢 Spread the Word
 
 Love what we're building with **DevOps Accelerator Project (DOAP)**? Help us spread the word! Share this project with your community and follow along as we build out the future of DevOps automation.
 
