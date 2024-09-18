@@ -1,0 +1,72 @@
+site_name: DevOps Accelerator Project
+site_author: Ruan Bekker
+copyright: "Copyright &copy; 2024 - 2024 Ruan Bekker"
+site_url: https://doap.ruan.dev
+repo_url: https://github.com/ruanbekker/devops-accelerator-project
+repo_name: ruanbekker/devops-accelerator-project
+
+nav:
+  - Welcome: index.md
+  - About: about.md
+
+theme:
+  name: 'material'
+  palette:
+    # primary: 'purple'
+    # accent: 'yellow'
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: deep orange
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: "#"      
+  - smarty
+  - admonition
+  - footnotes
+  - codehilite
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/ruanbekker
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ruanbekker
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/ruanbekker
+  manifest: "static/favicon/site.webmanifest"
