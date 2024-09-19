@@ -38,16 +38,16 @@ This project aims to include a comprehensive set of tools and configurations to 
 
 ### ⚙️ Development Environment
 - **Tools Bootstrapping**: Bootstrap all the required software to your Laptop with Brewfile.
-- **Local Development**: Develop locally using **Docker** and **[LocalStack](https://www.localstack.cloud/)** to simulate AWS services.
+- **Local Development**: Develop locally using **Docker** and **LocalStack** to simulate AWS services.
 - **Preview Environments**: On-demand preview environments with the lifespan as long as your PR is open.
 - **Version Control**: Centralized version control using **GitHub**.
 
 ### 🛠️ Infrastructure as Code (IaC)
-- **Terraform**: Manage cloud infrastructure with **[Terraform](https://www.terraform.io/)** modules and configurations.
-- **Infrastructure Deployment**: Automate infrastructure deployment via **[Atlantis](https://www.runatlantis.io/)** through pull requests.
+- **Terraform**: Manage cloud infrastructure with **Terraform** modules and configurations.
+- **Infrastructure Deployment**: Automate infrastructure deployment via **Atlantis** through pull requests.
 
 ### 🧑‍💻 Continuous Integration & Continuous Delivery (CI/CD)
-- **CI with GitHub Actions**: Automate testing, linting, and build pipelines using **[GitHub Actions](https://github.com/features/actions)**.
+- **CI with GitHub Actions**: Automate testing, linting, and build pipelines using **GitHub Actions**.
 - **CD with Argo CD**: Implement **GitOps** for continuous delivery of applications to Kubernetes clusters.
 
 ### 🚀 Application Deployment
@@ -56,7 +56,7 @@ This project aims to include a comprehensive set of tools and configurations to 
 - **Container Management**: Build, tag, and push container images to **ECR** and manage them via **Helm Charts**.
   
 ### 🔐 Security
-- **Security Scans**: Integrate security scanning tools like **[Trivy](https://github.com/aquasecurity/trivy)** for vulnerabilities in containers and **[Renovate](https://github.com/renovatebot/renovate)** for dependency management.
+- **Security Scans**: Integrate security scanning tools like **Trivy** for vulnerabilities in containers and **Renovate** for dependency management.
 
 ### 🔍 Observability & Monitoring
 - **Observability Stack**: Integrated observability using **Prometheus**, **Grafana**, **Loki**, **Tempo**, and **OpenTelemetry** for monitoring, logging, tracing, and metrics.
@@ -67,11 +67,19 @@ This project aims to include a comprehensive set of tools and configurations to 
 - **AutoScaling**: Scale your applications using **Karpenter** and **KEDA**.
 - **Ingress Controllers**: Route traffic using **Ingress-Nginx** controllers.
 - **Load Testing**: Perform load testing to ensure your applications can handle traffic under pressure.
-- **Right-Sizing Pods**: Optimize your Kubernetes pods' resource requests and limits with [Goldilocks](https://github.com/FairwindsOps/goldilocks).
+- **Right-Sizing Pods**: Optimize your Kubernetes pods' resource requests and limits with **Goldilocks**.
 
 ### 📦 Package & Helm Chart Management
 - **Helm Charts**: Package and deploy applications using **Helm Charts**.
 - **AWS Controllers for Kubernetes (ACK)**: Utilize **ACK Controllers** for managing AWS resources within Kubernetes via Helm charts.
+
+### 🧪 Testing
+- **Application Tests**: Ensure the stability and reliability of your applications through comprehensive testing frameworks.
+- **Java Tests**: Implement unit tests, integration tests, and end-to-end tests for your Java Spring Boot applications using tools like JUnit and Mockito.
+
+### 💰 Cost Management
+- **Infracost**: Monitor and analyze the cost implications of your Terraform deployments. Understand how changes in your infrastructure affect your cloud spending with detailed reports showing cost increases or decreases.
+- **Cost Optimization**: Identify potential savings and optimize your infrastructure to reduce costs without sacrificing performance.
 
 ## 🧱 Repository Structure
 
